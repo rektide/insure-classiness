@@ -1,0 +1,18 @@
+{
+	"name": "insure-classiness",
+	"version": "1.0.0",
+	"description": "Ensure a passed in context has been initialized with a class",
+	"main": "insure-classiness.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://archive.voodoowarez.com/insure-classiness"
+	},
+	"author": "rektide de la faye",
+	"license": "X",
+	"dependencies": {
+		"check-global": "^1.0.1"
+	}
+}
