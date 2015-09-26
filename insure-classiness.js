@@ -11,6 +11,12 @@ module.exports= function insureClassiness(o, klass, args){
 			o[i]= klass.prototype[i]
 		}
 	}
-	klass.apply(o, args)
+	if(!args || args.length === 0){
+		klass.call(o)
+	}else if(args.length === 1){
+		klass.call(o, args[0])
+	}else
+		klass.apply(o, args)
+	}
 	return o
 }

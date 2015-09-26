@@ -1,6 +1,6 @@
 {
 	"name": "insure-classiness",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Ensure a passed in context has been initialized with a class",
 	"main": "insure-classiness.js",
 	"scripts": {
