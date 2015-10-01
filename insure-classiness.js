@@ -1,4 +1,5 @@
-var checkGlobal= require("check-global"),
+var
+  checkGlobal= require("check-global"),
   dynamicNew= require("./dynamic-new")
 
 module.exports= function insureClassiness(o, klass, args){
@@ -15,7 +16,7 @@ module.exports= function insureClassiness(o, klass, args){
 		klass.call(o)
 	}else if(args.length === 1){
 		klass.call(o, args[0])
-	}else
+	}else{
 		klass.apply(o, args)
 	}
 	return o
